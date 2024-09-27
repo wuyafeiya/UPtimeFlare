@@ -8,7 +8,6 @@ const pageConfig = {
 
 const workerConfig = {
   kvWriteCooldownMinutes: 3,
-  passwordProtection: 'username:password',
   monitors: [
     {
       id: 'O',
