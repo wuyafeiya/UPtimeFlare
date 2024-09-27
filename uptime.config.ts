@@ -1,5 +1,9 @@
 const pageConfig = {
-  title: "网站监测"
+  title: "网站监测",
+   links: [
+    { link: 'https://github.com/lyc8503', label: 'GitHub' },
+    { link: 'mailto:me@lyc8503.site', label: 'Email Me', highlight: true },
+  ],
 }
 
 const workerConfig = {
