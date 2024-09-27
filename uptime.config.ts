@@ -1,41 +1,40 @@
 const pageConfig = {
   title: "网站监测",
    links: [
-    { link: 'https://github.com/lyc8503', label: 'GitHub' },
-    { link: 'mailto:me@lyc8503.site', label: 'Email Me', highlight: true },
+    { link: '', label: 'GitHub' },
+    { link: '', label: 'Email Me', highlight: true },
   ],
 }
-
 const workerConfig = {
-  kvWriteCooldownMinutes: 3,
+  kvWriteCooldownMinutes: 5,
   monitors: [
     {
-      id: 'O',
+      id: 'origin',
       name: 'Origin',
       method: 'GET',
       target: 'https://www.OriginCloud0.com'
     },
     {
-      id: 'P',
+      id: 'Pkq',
       name: 'PKQ',
       method: 'GET',
       target: 'https://www.pkqcloudx.com'
     },
     {
-      id: 'EX',
+      id: 'EXf',
       name: 'EXF',
       method: 'GET',
       target: 'https://portal.flexline9.com'
     },
-        {
-      id: 'foxi',
-      name: 'foxi',
+    {
+      id: 'scto',
+      name: 'scto',
       method: 'GET',
       target: 'https://www.sctocloud.com'
     },
         {
-      id: 'scto',
-      name: 'scto',
+      id: 'foxi',
+      name: 'foxi',
       method: 'GET',
       target: 'https://foxicloud0.com'
     },
